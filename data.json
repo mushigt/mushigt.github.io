@@ -1,0 +1,120 @@
+{
+    "skillCategories": [
+        {
+            "id": 1,
+            "title": "Frontend",
+            "skills": [
+                {
+                    "name": "HTML/CSS",
+                    "level": 100
+                },
+                {
+                    "name": "JavaScript",
+                    "level": 100
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Backend",
+            "skills": [
+                {
+                    "name": "Node.js",
+                    "level": 100
+                },
+                {
+                    "name": "Express.js",
+                    "level": 82
+                },
+                {
+                    "name": "API",
+                    "level": 70
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Autres",
+            "skills": [
+                {
+                    "name": "Electron.js",
+                    "level": 100
+                },
+                {
+                    "name": "Java",
+                    "level": 72
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Git",
+            "icon": "🐙"
+        },
+        {
+            "name": "MongoDB",
+            "icon": "🍃"
+        },
+        {
+            "name": "Firebase",
+            "icon": "🔥"
+        }
+    ],
+    "filters": [
+        {
+            "id": "all",
+            "label": "Tous"
+        },
+        {
+            "id": "fullstack",
+            "label": "Fullstack"
+        },
+        {
+            "id": "electron",
+            "label": "Electron"
+        },
+        {
+            "id": "java",
+            "label": "Java"
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "title": "Launcher Minecraft Electron",
+            "description": "Un launcher minecraft multi-plateforme développée avec Electron.js permettant la gestion complète du launcher depuis une API",
+            "technologies": [
+                "Electron",
+                "HTML/CSS/JS",
+                "Node.js",
+                "API",
+                "Express"
+            ],
+            "category": "electron",
+            "image": "https://cdn.discordapp.com/attachments/825428957716807732/1457370810015551642/image.png?ex=695bc1d5&is=695a7055&hm=d034411180fad2be5527e5dd181841be0b8e00745bb9333fdfbf51ea3227c01e&"
+        },
+        {
+            "id": 2,
+            "title": "Mod Minecraft Java",
+            "description": "Un mod minecraft qui permet d'ajouter des HUD ainsi que de voir les minerais a travers les blocks de la map",
+            "technologies": [
+                "Java"
+            ],
+            "category": "java",
+            "image": "https://media.discordapp.net/attachments/1250832858529009664/1439210941945217146/image.png?ex=695b9c23&is=695a4aa3&hm=52f19062cd13e6991905aa8b67f994098b1e30f1b2488d76dd5b6d373bb69aa8&=&format=webp&quality=lossless"
+        },
+        {
+            "id": 3,
+            "title": "Un panel de création de serveur privé",
+            "description": "Fini les consoles ouvert en arrière plan! ouvre ton navigateur et lance ton premier serveur minecraft depuis ton site web !",
+            "technologies": [
+                "Fullstack",
+                "HTML/CSS/JS",
+                "Autres"
+            ],
+            "category": "fullstack",
+            "image": "https://media.discordapp.net/attachments/1250832858529009664/1420294541344378941/image.png?ex=695b58de&is=695a075e&hm=547b471a6b6aa801fff993d14daebe7125daff7796b4ab3a85b7d20c29e5b693&=&format=webp&quality=lossless"
+        }
+    ]
+}

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Développeur Fullstack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.1.0/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.1.0/css/solid.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="nav-content">
+                <div class="logo">
+                    <span class="bracket">&lt;</span>
+                    <span class="logo-text">Portfolio</span>
+                    <span class="bracket">/&gt;</span>
+                </div>
+
+                <div class="nav-links" id="navLinks">
+                    <a href="#hero" class="nav-link">Accueil</a>
+                    <a href="#about" class="nav-link">À propos</a>
+                    <a href="#skills" class="nav-link">Compétences</a>
+                    <a href="#projects" class="nav-link">Projets</a>
+                </div>
+
+                <button class="menu-toggle" id="menuToggle">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg-gradient"></div>
+        <div class="hero-blob hero-blob-1"></div>
+        <div class="hero-blob hero-blob-2"></div>
+
+        <div class="container hero-container">
+            <div class="hero-content">
+                <p class="hero-welcome">&lt;Bienvenue sur mon portfolio! /&gt;</p>
+                <h1 class="hero-title">
+                    Développeur
+                    <span class="highlight">Fullstack</span>
+                </h1>
+                <p class="hero-subtitle">JavaScript • Electron • Java</p>
+                <p class="hero-description">
+                    Je m'appel Anthony et je suis passionné par la création d'applications et web modernes performants.
+                    Expert en développement fullstack en Java et Electron.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+                </div>
+
+                <div class="hero-social">
+                    <a href="https://github.com/mushigt/mushigt" class="social-link">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <a href="#about" class="social-link">
+                <i class="fa-duotone fa-regular fa-arrow-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    À propos de <span class="highlight">moi</span>
+                </h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-image-wrapper">
+                    <div class="image-border">
+                        <div class="image-container">
+                            <img src="https://cdn.discordapp.com/attachments/1166416254672830474/1457373066853220526/image.png?ex=695bc3ef&is=695a726f&hm=54890db678c147b7966a77b7740a64ae0659567f391ae5c0c09ce25b6f9daddc&"
+                                alt="Developer" class="about-image" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-content">
+                    <h3 class="about-subtitle">Passionné par le développement et logiciel</h3>
+                    <p class="about-text">
+                        Fort de plusieurs années d'expérience en développement fullstack, je me spécialise dans la
+                        création
+                        d'applications web modernes et d'applications desktop performantes avec Electron.
+                    </p>
+                    <p class="about-text">
+                        Ma maîtrise de Java, JavaScript et des méthodes de codages modernes me permet de concevoir des solutions
+                        robustes et scalables qui répondent aux besoins les plus exigeants.
+                    </p>
+
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-number">+10</div>
+                            <div class="stat-label">Années d'expérience</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">+55</div>
+                            <div class="stat-label">Projets réalisés</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    Mes <span class="highlight">Compétences</span>
+                </h2>
+                <div class="section-divider"></div>
+                <p class="section-description">
+                    Technologies et outils que je maîtrise pour créer des applications performantes
+                </p>
+            </div>
+
+            <div class="skills-grid" id="skillsGrid">
+                <!-- Skills will be loaded dynamically -->
+            </div>
+
+            <div class="tools-grid" id="toolsGrid">
+                <!-- Tools will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    Mes <span class="highlight">Projets</span>
+                </h2>
+                <div class="section-divider"></div>
+                <p class="section-description">
+                    Sélection de projets récents démontrant mes compétences en développement
+                </p>
+            </div>
+
+            <div class="filters" id="projectFilters">
+                <!-- Filters will be loaded dynamically -->
+            </div>
+
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <span class="bracket">&lt;</span>
+                        <span class="logo-text">Portfolio</span>
+                        <span class="bracket">/&gt;</span>
+                    </div>
+                    <p class="footer-text">
+                        Développeur Fullstack passionné par la création d'applications et web modernes performants.
+                    </p>
+                </div>
+
+                <div class="footer-column">
+                    <h3 class="footer-title">Liens rapides</h3>
+                    <ul class="footer-links">
+                        <li><a href="#hero">Accueil</a></li>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#skills">Compétences</a></li>
+                        <li><a href="#projects">Projets</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3 class="footer-title">Technologies</h3>
+                    <div class="footer-tags">
+                        <span class="tag">HTML/CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Electron</span>
+                        <span class="tag">Express</span>
+                        <span class="tag">Java</span>
+                        <span class="tag">API</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright">
+                    © <span id="currentYear"></span> Portfolio by MushiGT. Tous droits réservés.
+                </p>
+                <div class="footer-social">
+                    <a href="https://github.com/mushigt/mushigt" class="social-link">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
